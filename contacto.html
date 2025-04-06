@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="estilos/contacto_estilo.css">
+</head>
+<body>
+  <div class="encabezado">
+    <h1>El Aniquilador del Hambre</h1>
+    <p>Sandwiches / Platos / Bebestibles / Postres</p>
+</div>
+
+    <div class="navegacion">
+      <a href="inicio.html" class="activo">Inicio</a>
+      <a href="historia.html">Historia</a>
+      <a href="ubicacion.html">Ubicación</a>
+      <a href="contacto.html">Contacto</a>
+  </div>
+
+    <div class="grupo_contenedor">
+      <br>
+      <h2>Formulario de Contacto</h2>
+      <form action="#" method="post">
+        <div class="grupo_formulario">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+  
+        <div class="grupo_formulario">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+  
+        <div class="grupo_formulario">
+          <label for="telefono">Teléfono de contacto:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+        </div>
+  
+        <div class="grupo_formulario">
+          <label for="tipo">Tipo de mensaje:</label>
+          <select id="tipo" name="tipo" required>
+            <option value="">Seleccione una opción</option>
+            <option value="consulta">Consulta</option>
+            <option value="reclamo">Reclamo</option>
+          </select>
+        </div>
+  
+        <div class="grupo_formulario">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+  
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  
+    <div class="footer">
+      <h3>Sucursales</h3>
+      <p><strong>Sucursal Centro:</strong> +56 63 222 3344</p>
+      <p><strong>Sucursal Isla Teja:</strong> +56 63 225 8899</p>
+      <h3>Redes Sociales</h3>
+      <div class="socials">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+      </div>
+    </div>
+  
+  </body>
+</html>
